@@ -1,0 +1,14 @@
+[Unit]
+Description=Prometheus-msteams
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=prometheus-msteams
+Group=prometheus-msteams
+Type=simple
+ExecStart=/usr/local/bin/prometheus-msteams -config-file /opt/prometheus-msteams/config.yml -template-file /opt/prometheus-msteams/card.tmpl
+
+[Install]
+WantedBy=multi-user.target
+

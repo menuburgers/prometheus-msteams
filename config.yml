@@ -1,0 +1,2 @@
+connectors:
+  - alert_channel: "https://inciteinsight.webhook.office.com/webhookb2/027a121b-b3f6-49c9-bfce-5a1fc240c1f8@bc66ee92-91c8-431c-a4ec-dda84e02c457/IncomingWebhook/d2627f948577460390488732826db5fd/c507de9b-f2d9-4011-a5c1-ea0f2bf7ba1e"
